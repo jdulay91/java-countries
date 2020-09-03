@@ -1,4 +1,8 @@
 package com.lambdaschool.countries.controllers;
 
-public class CheckCountry {
+import com.lambdaschool.countries.models.Country;
+
+public interface CheckCountry {
+
+    boolean test(Country c);
 }
